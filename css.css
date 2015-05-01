@@ -1,0 +1,40 @@
+.wins{
+  position:absolute;
+  top:30%;
+  bottom:0;
+  right:50%;
+  left:0;
+  overflow-y:scroll;
+}
+.loses{
+  position:absolute;
+  top:30%;
+  bottom:0;
+  left:50%;
+  right:0;
+  overflow-y:scroll;
+}
+.play{
+  position:absolute;
+  top:0;
+  right:50%;
+  bottom:70%;
+  left:0;
+}
+
+.playStats{
+  position:absolute;
+  top:0;
+  left:50%;
+  bottom:70%;
+  right:0;
+}
+
+td{
+  border:solid 1px black;
+  font-family: Arial, Helvetica;
+  border-radius:3px;
+}
+
+tr:nth-child(even) td {background: #CCC}
+tr td:first-child {font-weight: 600}

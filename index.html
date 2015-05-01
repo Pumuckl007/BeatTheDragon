@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <title>Beat The Dragon</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script src="js.js"></script>
+</head>
+<body>
+  <div class="wins">
+    <table id="wins"></table>
+  </div>
+  <div class="loses">
+    <table id="loses"></table>
+  </div>
+  <div class="play" id="play">
+    <div>Number of tries: <input id="numberOfTries"></input></div>
+    <div>
+      <button id="playTheGame" onClick="document.getElementById('playStats').innerHTML = dragon.playGame()">Play!</button>
+    </div>
+  </div>
+  <div class="playStats" id="playStats">
+
+  </div>
+</body>
